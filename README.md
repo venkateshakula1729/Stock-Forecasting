@@ -1,7 +1,6 @@
 # Stock-Forecasting
 
-In this project, I use the lstm model to predict the future value of a data set .first of all I make a lstm model and save it and use it for future prediction. In this project, I use a data set of a company that is about 11 years data and I train my model on this data set then I use some test cases, in which I use the previous 50 days' data and predict the next two days close value.
-
+In this project, I developed an **LSTM-based time-series model** to predict future stock values. I trained the model on about **11 years of historical data**, allowing it to learn long-term trends and sequential patterns. After training, I saved the model and used it for **inference**, where I provided a **50-day input window** to forecast the **next two days’ closing prices**. This workflow let the model capture temporal dependencies and generate short-term, data-driven forecasts.
 
 ## Dependencies
 
@@ -29,7 +28,7 @@ Please ensure that you have these libraries installed or include them in your pr
 - `sklearn.metrics.mean_squared_error`: Used to calculate the mean squared error.
 
 ## Objective
-Develop a ML model to accurately predict the closing price of a stock, enabling informed investment dicision.
+Develop a ML model to accurately predict the closing price of a stock, enabling informed investment decision.
 
 ## Approach
 
