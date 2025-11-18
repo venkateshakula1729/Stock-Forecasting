@@ -27,20 +27,22 @@ Please ensure that you have these libraries installed or include them in your pr
 - `pickle`: Used for object serialization.
 - `sklearn.metrics.mean_squared_error`: Used to calculate the mean squared error.
 
-## Objective
-Develop a ML model to accurately predict the closing price of a stock, enabling informed investment decision.
+
+## **Objective**
+
+Develop a **machine learning model** capable of accurately predicting a stock’s **future closing price**, supporting more informed and data-driven investment decisions.
 
 ## Approach
 
-• Adopted LSTM model, a powerful RNN to capture and learn complex temporal dependencies in stock data.
+- Adopted **LSTM model**, a powerful **RNN** to capture and learn complex temporal dependencies in stock data.
 
-• Train the model using a comprehensive historical stock info, ensuring a thorough analysis of trends and patterns.
+- Train the model using a comprehensive historical stock info, ensuring a thorough analysis of trends and **patterns**.
 
-• Implement advanced data preprocessing techniques including normalization, scaling, and handling missing
-values and feature engineering to optimize the model’s performance and enhance prediction accuracy.
+- Implemented advanced **data preprocessing techniques** including normalization, scaling, and handling missing
+values and **feature engineering** to optimize the model’s performance and enhance prediction accuracy.
 
 ## Outcome
 
-•  Attained 95.3% Directional Accuracy in LSTM model’s future value prediction by minimizing the MSE of predictions, indicating accurate predictions of stock price.
+-  Attained **95.3%** **Directional Accuracy** in LSTM model’s future value prediction by minimizing the MSE of predictions, indicating accurate predictions of stock price.
 
-• Built an LSTM-based time-series model to forecast stock prices, generating actionable insights that supported risk assessment, portfolio decisions, and overall investment planning.
+-  Built an **LSTM-based time-series model** to forecast stock prices, generating actionable insights that supported risk assessment, portfolio decisions, and overall investment planning.
